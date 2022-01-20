@@ -2,10 +2,17 @@ package com.company;
 
 public class Main {
 
+    float f = 1.0f;
+    Float F = 1f;
     public static void main(String[] args) {
         // write your code here
         //System.out.println(t());
-        t2();
+        //t2();
+
+
+        Main m = new Main();
+        m.f = 197;
+
 
     }
 
@@ -30,7 +37,7 @@ public class Main {
         } finally {
             str = "finally";
             System.out.println("zx-finally");
-            //return str;
+            return str;
         }
     }
 }
